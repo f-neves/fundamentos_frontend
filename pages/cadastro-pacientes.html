@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Pacientes</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/cadastro-pacientes.css">
+</head>
+<body>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="cadastro-pacientes.html">Cadastro de Pacientes</a>
+      <a href="login.html">Login</a>
+      <a href="regulador.html">Médico Regulador</a>
+      <a href="origem.html">Médico de Origem</a>
+      <a href="destino.html">Médico de Destino</a>
+      <a href="cadastro-hospitais.html">Cadastro de Hospitais</a>
+      <a href="hospitais.html">Hospitais</a>
+    </nav>
+      <header class="header">
+        <div class="container">
+          <h1>Cadastro de Pacientes</h1>
+        </div>
+      </header>
+  <main class="cadastro-container">
+    <form id="cadastroPacienteForm" class="form">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" placeholder="Digite o nome do paciente" required>
+
+      <label for="cpf">CPF</label>
+      <input type="text" id="cpf" placeholder="Digite o CPF" required>
+
+      <label for="dataNascimento">Data de Nascimento</label>
+      <input type="date" id="dataNascimento">
+
+      <label for="sexo">Sexo</label>
+      <select id="sexo">
+        <option value="Masculino">Masculino</option>
+        <option value="Feminino">Feminino</option>
+        <option value="Outro">Outro</option>
+      </select>
+
+      <button type="submit" class="btn">Cadastrar Paciente</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; 2024 STP. Todos os direitos reservados.</p>
+  </footer>
+  <script src="../js/cadastro-pacientes.js"></script>
+</body>
+</html>

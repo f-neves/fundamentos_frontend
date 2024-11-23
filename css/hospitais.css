@@ -1,0 +1,39 @@
+/* Estilo da tabela */
+.hospital-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.hospital-table th,
+.hospital-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.hospital-table th {
+  background-color: #0078d7;
+  color: white;
+}
+
+.hospital-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.hospital-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estilo geral da página */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #0078d7;
+}

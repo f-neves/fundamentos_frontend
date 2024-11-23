@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Médico Regulador</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="cadastro-pacientes.html">Cadastro de Pacientes</a>
+    <a href="login.html">Login</a>
+    <a href="regulador.html">Médico Regulador</a>
+    <a href="origem.html">Médico de Origem</a>
+    <a href="destino.html">Médico de Destino</a>
+    <a href="cadastro-hospitais.html">Cadastro de Hospitais</a>
+    <a href="hospitais.html">Hospitais</a>
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <h1>Painel do Médico Regulador</h1>
+    </div>
+  </header>
+  <main class="crud-container">
+    <h2>Gestão de Médicos</h2>
+    <button onclick="addMedico()">Adicionar Médico</button>
+    <ul id="medicoList"></ul>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 STP. Todos os direitos reservados.</p>
+  </footer>
+  <script src="js/medicos.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Hospitais</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/cadastro-hospitais.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="cadastro-pacientes.html">Cadastro de Pacientes</a>
+    <a href="login.html">Login</a>
+    <a href="regulador.html">Médico Regulador</a>
+    <a href="origem.html">Médico de Origem</a>
+    <a href="destino.html">Médico de Destino</a>
+    <a href="cadastro-hospitais.html">Cadastro de Hospitais</a>
+    <a href="hospitais.html">Hospitais</a>
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <h1>Cadastro de Hospitais</h1>
+    </div>
+  </header>
+  <main class="cadastro-container">
+    <form id="cadastroHospitalForm" class="form">
+      <label for="nome">Nome do Hospital</label>
+      <input type="text" id="nome" placeholder="Digite o nome do hospital" required>
+
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" placeholder="Digite o telefone">
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="Digite o e-mail">
+
+      <label for="rua">Rua</label>
+      <input type="text" id="rua" placeholder="Digite a rua" required>
+
+      <label for="bairro">Bairro</label>
+      <input type="text" id="bairro" placeholder="Digite o bairro" required>
+
+      <label for="cidade">Cidade</label>
+      <input type="text" id="cidade" placeholder="Digite a cidade" required>
+
+      <label for="estado">Estado</label>
+      <input type="text" id="estado" placeholder="Digite o estado" required>
+
+      <label for="disponibilidadeLeitos">Disponibilidade de Leitos</label>
+      <input type="number" id="disponibilidadeLeitos" placeholder="Número de leitos disponíveis">
+
+      <label for="temUTI">Possui UTI?</label>
+      <select id="temUTI">
+        <option value="true">Sim</option>
+        <option value="false">Não</option>
+      </select>
+
+      <button type="submit" class="btn">Cadastrar Hospital</button>
+    </form>
+
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 STP. Todos os direitos reservados.</p>
+  </footer>
+  <script src="js/cadastro.js"></script>
+</body>
+</html>
